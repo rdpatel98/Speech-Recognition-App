@@ -13,7 +13,7 @@ let docTitle = document.title;
 let alertShow = false;
 
 window.addEventListener("blur", () => {
-  document.title = "Hey! See You Soon :(";
+  document.title = "Hey! See You Soon 👋";
 });
 
 window.addEventListener("focus", () => {
@@ -23,7 +23,7 @@ window.addEventListener("focus", () => {
 
 let intervalId = setInterval(() => {
   if (document.hasFocus()) {
-    document.title = alertShow ? "Voice Recognition " : "This Project Build at Syfrox – IT Services and IT Consulting by Ronak Patel";
+    document.title = alertShow ? "Speech Recognition 🎙️ " : "This Project Build at Syfrox – IT Services and IT Consulting by Ronak Patel";
     alertShow = !alertShow;
   }
 }, 3600);

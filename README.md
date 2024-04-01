@@ -1,27 +1,84 @@
-# VoiceRecoUI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+# Speech-Recognition-App 🎙️
 
-## Development server
+So as you read the project title, you have some idea that this project is a web application designed to facilitate real-time speech recognition service. Users can record their voice using the app, and simultaneously, the speech recognition functionality transcribes the spoken words, displaying the transcript on the screen in real-time. This app is particularly useful for scenarios where users need to transcribe spoken content quickly and accurately, such as note-taking, interviews, or accessibility purposes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Voice recording functionality
+* Real-time speech recognition
+* Transcription displayed on the screen as the speech is recognized
+* User-friendly interface for seamless experience
+## Demo
 
-## Build
+Go to working Prototype [Demo](htt "Speech Recognition App")
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## API Reference
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Get all items
 
-## Running end-to-end tests
+```http
+  npm i [Required packages Name@ version]
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+| packages | version     | Description                |
+| :-------- | :------- | :------------------------- |
+| `angular cli` | `^15.2.11` | **Required**. angular |
+|`Node.js`|`v20.9.0`|*Required*. Node |
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Usage
+
+* Open the web app in a supported browser.
+* Click on the record button to start recording your voice.
+* Speak clearly into the microphone.
+* As you speak, the speech recognition system will transcribe your words and display them on the screen in real-time.
+* Click on the stop button to finish recording.
+* If You want to Reset The recognition then Click On Reset Button
+## Badges
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes.
+## FAQ
+
+#### Is this app compatible with all types of browsers?
+
+Yes, this app is compatible with all types of latest browsers.
+
+#### Does the app work in low network conditions?
+
+No, a consistent internet speed is required for the app to function properly.
+
+
+#### Can I use this app offline?
+
+No, currently this app requires an active internet connection to work.
+
+### How secure is the data recorded by the app?
+
+The app ensures the privacy and security of user data through encryption protocols and secure server connections.
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at [contact@syfrox.com](mailto:contact@syfrox.com)
+
+
+
+## Contact Us 📞
+
+We value your feedback and are here to assist you. If you have any questions, suggestions, or issues, please don't hesitate to reach out to us:
+
+- **Have a questions?** : [contact@syfrox.com](mailto:contact@syfrox.com)
