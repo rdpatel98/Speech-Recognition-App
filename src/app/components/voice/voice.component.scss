@@ -10,6 +10,7 @@
     font-weight: bold;
     border-radius: 10px;
     justify-content: space-between;
+    cursor: pointer;
   }
 
   .start{
@@ -79,4 +80,10 @@
   color: #c5c5c5;
   text-align: center;
   margin-top: 5%;
+}
+
+.reset:hover{
+  color: white;
+  font-size: 13px;
+  transition: ease-in;
 }
