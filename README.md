@@ -12,7 +12,7 @@ So as you read the project title, you have some idea that this project is a web 
 * User-friendly interface for seamless experience
 ## Demo
 
-Go to working Prototype [Demo](htt "Speech Recognition App")
+Go to working Prototype [Demo](https://speech-recognition-app9810.netlify.app "Speech Recognition App")
 
 
 ## API Reference
