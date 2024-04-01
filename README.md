@@ -26,7 +26,7 @@ Go to working Prototype [Demo](htt "Speech Recognition App")
 | packages | version     | Description                |
 | :-------- | :------- | :------------------------- |
 | `angular cli` | `^15.2.11` | **Required**. angular |
-|`Node.js`|`v20.9.0`|*Required*. Node |
+|`Node.js`|`v20.9.0`|**Required**. Node |
 
 
 

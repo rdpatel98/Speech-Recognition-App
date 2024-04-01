@@ -22,8 +22,6 @@ export class VoiceRecogService {
       const transcript = Array.from(event.results)
         .map((result: any) => result[0].transcript)
         .join('');
-      // this.tempWords = transcript;
-      // console.log(transcript);
       this.text = transcript
 
 
@@ -37,20 +35,13 @@ export class VoiceRecogService {
   start() {
     this.isStoppedSpeechRecog = false;
     this.recognition.start();
-    console.log('Speech recognition started');
   }
 
   stop() {
     this.isStoppedSpeechRecog = true;
-    // this.wordConcat();
     this.recognition.stop();
-    console.log('Speech recognition stopped');
   }
 
-  // wordConcat() {
-  //   this.text = this.text + ' ' + this.tempWords + '.';
-  //   this.tempWords = '';
-  // }
   init() {
     this.recognition.interimResult = true;
     this.recognition.lang = 'en-US';
@@ -60,14 +51,12 @@ export class VoiceRecogService {
         .map((result: any) => result[0].transcript)
         .join('');
       this.tempWords = transcript;
-      // console.log(transcript);
     });
   }
 
   resettranscript(){
     this.recognition.stop();
     this.text = ''
-    console.log('Speech recognition reset');
   }
 
 }
